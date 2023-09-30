@@ -1,0 +1,55 @@
+
+.colorcss{
+text-decoration: none;
+}
+.colorh5css{
+    color: rgb(63, 61, 61);
+    font-weight: 650;
+}
+.colorh5css:hover{
+    color: black;
+    
+}
+.cssfordivpage2hand{
+    line-height: -1rem;
+
+  
+}
+
+
+.fade-in-out1 {
+    animation: fadeInOut 5s ;
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0; }
+    100% { opacity: 2; }
+    
+}
+
+.text-container {
+    text-align: center;
+}
+
+.rotate-text {
+    display: inline-block;
+    animation: rotateText 6s ;
+}
+
+@keyframes rotateText {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.text-container {
+    text-align: center;
+}
+
+.typing-text::after {
+    content: "";
+    animation: typing 5s  ;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}

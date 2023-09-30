@@ -1,0 +1,71 @@
+.cantainer{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0.5rem;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+@media (max-width: 575.98px){
+    .cssfontline1{
+  
+        position: relative;
+        display: inline-block;
+        /* font-size: 24px;  */
+        padding:0px  0px 32px; /* Add horizontal padding to the text */
+        background: linear-gradient(to bottom, transparent 97%, #e7dede 50%);
+        /* background-size: 100% 2px;  */
+           background-position:0rem  0rem; 
+      
+      
+    }
+    }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        .cssfontline1{
+  
+            position: relative;
+            display: inline-block;
+            /* font-size: 24px;  */
+            padding:0px  0px 32px; /* Add horizontal padding to the text */
+            background: linear-gradient(to bottom, transparent 97%, #e7dede 50%);
+            /* background-size: 100% 2px;  */
+               background-position:0rem  0rem; 
+          
+          
+        }
+    }
+    @media (min-width: 768px) and (max-width: 991.98px){
+        .classcssmarginright{
+            border-right: 0.1rem solid white;
+        }
+    }
+    @media (min-width: 992px) and (max-width: 1199.98px){
+        .classcssmarginright{
+            border-right: 0.1rem solid white;
+        }
+    }
+     @media (min-width: 1200px){
+        .classcssmarginright{
+            border-right: 0.1rem solid white;
+        }
+     }
+
+     .fade-in-out01 {
+        animation: fadeInOut 6s ;
+    }
+    
+    @keyframes fadeInOut {
+        5% { opacity: 0; }
+        40% { opacity: 1; }
+        
+    }
